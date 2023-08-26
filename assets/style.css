@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(300deg, #368581, #d1c3a0, #99593c);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  #front{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+  }
+.gradient-background{
+    background-color:rgb(227, 240, 243);
+  }
+  .container{
+    padding-bottom: 0;
+  }
+ .mahin{
+  height: 5rem;
+ }
+ .nav-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+.ng{background-position: right center;
+    color: #f5f2f2;
+}
